@@ -4,7 +4,8 @@ html {
 
 body {
   margin: 0;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  color: #393939;
 }
 
 .container {
@@ -34,7 +35,7 @@ body {
   position: absolute;
   left: 0;
   right: 0;
-  top: 20vh;
+  top: 25vh;
 }
 
 .one {
@@ -103,8 +104,7 @@ body {
 }
 
 .idea-5 span,
-.idea-6 span,
-.wish-hbd span {
+.idea-6 span {
   display: inline-block;
 }
 
@@ -125,9 +125,10 @@ body {
 .six .hat {
   position: absolute;
   width: 80px;
-  top: -35px;
-  left: 41.5%;
+  top: -39px;
+  left: 47.5%;
   /* transform: scale(0.1); */
+  transform: rotate(15deg);
 }
 
 .baloons img {
@@ -227,33 +228,38 @@ body {
   font-weight: lighter;
 }
 
+.lydia-dp{
+  width: 470px;
+  height: 470px;
+}
+
 #replay {
-  z-index: 3;
+  z-index: 10;
   cursor: pointer;
 }
 
 /* Media Queries */
 @media screen and (max-height: 1000px) {
   .six .hat {
-    left: 40%;
+    left: 50%;
   }
 }
 
 @media screen and (max-height: 800px) {
   .six .hat {
-    left: 37%;
+    left: 50%;
   }
 }
 
 @media screen and (max-height: 700px) {
   .six .hat {
-    left: 32%;
+    left: 50%;
   }
 }
 
 @media screen and (max-height: 850px) and (max-width: 450px) {
   .six .hat {
-    left: 32%;
+    left: 46%;
   }
 }
 
